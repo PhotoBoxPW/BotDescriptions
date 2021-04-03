@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,0BAA0B,CACxB,MAAM,CAAE,OAAO,CACf,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,sBAAuB,CACnC,UAAU,CAAE,OAAoB,CAChC,gCAAO,CACL,UAAU,CCTP,OAAO,CDWhB,4BAA4B,CAC1B,OAAO,CAAE,CAAC,CACV,qCAAQ,CACN,aAAa,CAAE,GAAG,CAClB,QAAQ,CAAE,MAAM",
+"sources": ["../../src/TopGG/style.sass","../../src/_vars.sass"],
+"names": [],
+"file": "style.css"
+}

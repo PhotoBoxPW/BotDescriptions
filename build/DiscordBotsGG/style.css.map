@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,iBAAY,CACV,aAAa,CAAE,CAAC,CAChB,gBAAgB,CAAE,WAAW,CAC7B,MAAM,CAAE,yCAA4C,CACtD,cAAS,CACP,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,CAAC,CACZ,sBAAiB,CACf,MAAM,CAAE,CAAC,CACT,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK",
+"sources": ["../../src/DiscordBotsGG/style.sass"],
+"names": [],
+"file": "style.css"
+}

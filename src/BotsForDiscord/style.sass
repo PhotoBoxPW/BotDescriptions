@@ -1,0 +1,65 @@
+@import '../_vars'
+  
+.hero
+  .hero-body
+    background-image: none !important
+    background-color: #222 !important
+    [style*="drop-shadow"]
+      filter: none !important
+    .tag
+      &:not(body)
+        border-radius: 20px
+      &.is-dark + .tag
+        background-color: $accent
+        color: #fff
+      &.is-danger a
+        background-color: darken($accent, 20%)
+        border-radius: 10px
+        padding-left: 7px
+        & + a
+          margin-left: 5px
+    .img-circle
+      border-radius: 0
+      animation: none
+    .is-10
+      position: relative
+      #status
+        position: absolute
+        margin: 0
+        font-size: 0
+        top: 35px
+        &:before
+          display: block
+          width: 32px
+          height: 32px
+          bottom: 10px
+      .title#highlight
+        padding-left: 40px
+      .button
+        &:not(.is-warning)
+          background-color: #333
+          color: #fff
+        &.is-link
+          background-color: $accent
+          color: #fff
+        &.is-white
+          background-color: darken($accent, 10%)
+          color: #fff
+
+.section.content .container.margin-top-20
+  margin: 0
+  max-width: unset
+  width: unset
+  .photobox-main
+    .photobox-banner
+      margin: 0 -1.5rem
+    .photobox-hero .photobox-hero-text
+      h1
+        color: $accent !important
+      strong
+        color: #D3D3D3 !important
+    .photobox-features .photobox-feature .photobox-feature-text
+      h2
+        color: #f2f2f2 !important
+      p
+        color: #ddd !important

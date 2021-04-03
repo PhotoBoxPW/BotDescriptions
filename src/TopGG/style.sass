@@ -1,0 +1,17 @@
+@import '../_vars'
+
+*
+  &::-webkit-scrollbar-thumb
+    cursor: pointer
+    border-radius: 10px
+    transition: background 0.5s ease 0s
+    background: opacify($accent, .6)
+    &:hover
+      background: $accent
+
+.entity-content__description
+  padding: 0
+  .content
+    border-radius: 5px
+    overflow: hidden
+    

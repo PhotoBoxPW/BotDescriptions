@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,6BAAgB,CACd,gBAAgB,CAAE,OAAoB,CACtC,wCAAU,CACR,MAAM,CAAE,wCAA2C,CACvD,uBAAc,CACZ,MAAM,CAAE,CAAC,CACT,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK,CAChB,gCAAQ,CACN,OAAO,CAAE,CAAC",
+"sources": ["../../src/DiscordExtremeList/style.sass"],
+"names": [],
+"file": "style.css"
+}

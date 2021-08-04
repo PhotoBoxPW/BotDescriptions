@@ -46,18 +46,23 @@
           background-color: darken($accent, 10%)
           color: #fff
 
-.section.content .container.margin-top-20
-  margin: 0
-  max-width: unset
-  width: unset
+.decription-bp
+  overflow: hidden
+  background-color: #202536
+  border: 1px solid #525870
+  border-radius: 9px
   .photobox-main
-    .photobox-banner
-      margin: 0 -1.5rem
-    .photobox-hero .photobox-hero-text
-      h1
-        color: $accent !important
-      strong
-        color: #D3D3D3 !important
+    .photobox-hero
+      flex-direction: column
+      .photobox-hero-divider
+        height: 0
+        border: none
+        margin: 10px 0
+      .photobox-hero-text
+        h1
+          color: $accent !important
+        strong
+          color: #D3D3D3 !important
     .photobox-features .photobox-feature .photobox-feature-text
       h2
         color: #f2f2f2 !important

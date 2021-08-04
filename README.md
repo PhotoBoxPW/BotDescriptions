@@ -9,5 +9,5 @@ gem install sass scss_lint
 
 And run this to build CSS in realtime:
 ```sh
-sass --watch src:build -t compressed 
+sass --watch src:build -t compressed
 ```

@@ -1,50 +1,8 @@
 @import '../_vars'
-  
-.hero
-  .hero-body
-    background-image: none !important
-    background-color: #222 !important
-    [style*="drop-shadow"]
-      filter: none !important
-    .tag
-      &:not(body)
-        border-radius: 20px
-      &.is-dark + .tag
-        background-color: $accent
-        color: #fff
-      &.is-danger a
-        background-color: darken($accent, 20%)
-        border-radius: 10px
-        padding-left: 7px
-        & + a
-          margin-left: 5px
-    .img-circle
-      border-radius: 0
-      animation: none
-    .is-10
-      position: relative
-      #status
-        position: absolute
-        margin: 0
-        font-size: 0
-        top: 35px
-        &:before
-          display: block
-          width: 32px
-          height: 32px
-          bottom: 10px
-      .title#highlight
-        padding-left: 40px
-      .button
-        &:not(.is-warning)
-          background-color: #333
-          color: #fff
-        &.is-link
-          background-color: $accent
-          color: #fff
-        &.is-white
-          background-color: darken($accent, 10%)
-          color: #fff
+
+.bot-img-bp > .bot-mx-bp > img
+  box-shadow: none
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.7))
 
 .decription-bp
   overflow: hidden
